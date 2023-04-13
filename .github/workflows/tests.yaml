@@ -24,7 +24,7 @@ jobs:
 
       - run: composer self-update
 
-      - run: composer install --no-interaction --prefer-source --dev
+      - run: composer update --no-interaction --prefer-dist
 
       - run: composer test
 
